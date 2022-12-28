@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-12-28T06:52:20.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="Dt-zT6jGO06YKLKxsIAE" type="github"><diagram id="LxIF1MGy3t740aGRzX6t">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-28T06:57:47.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="5ZJvBpIUZ5Hvgd0oKK6O" type="github">
+  <diagram id="yiaCU1Vqxz6n_TdvmyUf" name="Page-1">
+    <mxGraphModel dx="1434" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-2" value="&lt;b&gt;What is Machine Learning?&lt;/b&gt;&lt;br&gt;&lt;br&gt;Any program which leads to improvement in performance when more experience is provided to the program is a ML program. - Tom MItchell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="320" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
