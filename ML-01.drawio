@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-28T14:43:18.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="jXwo6WuXpQsELISC3SUT" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-30T12:15:28.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="qMfyU-3UekDjBVMLiH9c" type="github">
   <diagram id="yiaCU1Vqxz6n_TdvmyUf" name="Page-1">
     <mxGraphModel dx="2284" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="5vYoBrWB2Ws82g73J6qU-3" value="&lt;b&gt;K-Nearest Neighbor&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. Give me a database of items.&lt;br&gt;&lt;br&gt;2. When you ask me a question, I am going to find the most similar item in my database, and whatever the answer for that item was, I am going to give you that." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-320" y="520" width="230" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="5vYoBrWB2Ws82g73J6qU-4" value="&lt;b&gt;Representation&lt;br&gt;&lt;/b&gt;&lt;br&gt;Every learning algo can produce answers in a particular format and this format is called representation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="80" width="280" height="100" as="geometry" />
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-4" value="&lt;b&gt;Representation&lt;br&gt;&lt;/b&gt;&lt;br&gt;Every learning algo can produce answers in a particular format and this format is called representation&lt;br&gt;&lt;br&gt;What are the possible ways it can give you an answer?&lt;br&gt;&lt;br&gt;And there is a mechanism which helps you to pick one of the possible answers (best one)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="80" width="280" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
