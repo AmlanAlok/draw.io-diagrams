@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-30T12:15:28.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="qMfyU-3UekDjBVMLiH9c" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-31T04:34:09.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="LoLlJQJ0eYZs6clxf4WS" type="github">
   <diagram id="yiaCU1Vqxz6n_TdvmyUf" name="Page-1">
     <mxGraphModel dx="2284" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,8 +10,14 @@
         <mxCell id="5vYoBrWB2Ws82g73J6qU-3" value="&lt;b&gt;K-Nearest Neighbor&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. Give me a database of items.&lt;br&gt;&lt;br&gt;2. When you ask me a question, I am going to find the most similar item in my database, and whatever the answer for that item was, I am going to give you that." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-320" y="520" width="230" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="5vYoBrWB2Ws82g73J6qU-4" value="&lt;b&gt;Representation&lt;br&gt;&lt;/b&gt;&lt;br&gt;Every learning algo can produce answers in a particular format and this format is called representation&lt;br&gt;&lt;br&gt;What are the possible ways it can give you an answer?&lt;br&gt;&lt;br&gt;And there is a mechanism which helps you to pick one of the possible answers (best one)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="80" width="280" height="300" as="geometry" />
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5vYoBrWB2Ws82g73J6qU-4" target="5vYoBrWB2Ws82g73J6qU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-4" value="&lt;b&gt;Representation&lt;br&gt;&lt;/b&gt;&lt;br&gt;Every learning algo can produce answers in a particular format and this format is called representation&lt;br&gt;&lt;br&gt;What are the possible ways it can give you an answer?&lt;br&gt;&lt;br&gt;And there is a mechanism which helps you to pick one of the possible answers (best one)&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="80" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-5" value="&lt;b&gt;Why we need representation?&lt;br&gt;&lt;/b&gt;&lt;br&gt;The mapping f(x) = y is infinite.&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Representation tells us what possible space of f are we allowed to look at.&lt;br&gt;&lt;br&gt;So, ML algos are also about what representation you can use to get closer to the right solution&lt;br&gt;&lt;br&gt;&lt;br&gt;So you decide how to make the representation so that your ML algo can work with it." style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="60" width="220" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
