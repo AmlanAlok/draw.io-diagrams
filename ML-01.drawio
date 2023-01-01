@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-31T05:06:34.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="6xJ9cDCiaQrwHK5b05KG" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T14:22:22.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.7.4" etag="ervC-KvtrEWcu0EvVU8i" type="github">
   <diagram id="yiaCU1Vqxz6n_TdvmyUf" name="Page-1">
     <mxGraphModel dx="2284" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,11 +19,14 @@
         <mxCell id="5vYoBrWB2Ws82g73J6qU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5vYoBrWB2Ws82g73J6qU-4" target="5vYoBrWB2Ws82g73J6qU-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5vYoBrWB2Ws82g73J6qU-4" value="&lt;b&gt;Representation&lt;br&gt;&lt;/b&gt;&lt;br&gt;Every learning algo can produce answers in a particular format and this format is called representation&lt;br&gt;&lt;br&gt;What are the possible ways it can give you an answer?&lt;br&gt;&lt;br&gt;And there is a mechanism which helps you to pick one of the possible answers (best one)&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="80" width="300" height="300" as="geometry" />
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="5vYoBrWB2Ws82g73J6qU-4" target="5vYoBrWB2Ws82g73J6qU-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-4" value="&lt;b&gt;Representation&lt;br&gt;&lt;/b&gt;&lt;br&gt;Every learning algo can produce answers in a particular format and this format is called representation&lt;br&gt;&lt;br&gt;What are the possible ways it can give you an answer?&lt;br&gt;&lt;br&gt;And there is a mechanism which helps you to pick one of the possible answers (best one)&lt;br&gt;&lt;br&gt;&lt;b&gt;Crux&lt;/b&gt;&lt;br&gt;&lt;br&gt;Representations are a way to enumerate all the possible solutions that the algorithm can represent or look at. And, in ML problems it is only a subset of the real answer.&lt;br&gt;&lt;br&gt;This means in a ML algo we cannot accept that it will learn the correct answer because the correct answer might not be within the representation that has been chosen." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="80" width="300" height="400" as="geometry" />
         </mxCell>
         <mxCell id="5vYoBrWB2Ws82g73J6qU-5" value="&lt;b&gt;Why we need representation?&lt;br&gt;&lt;/b&gt;&lt;br&gt;The mapping f(x) = y is infinite.&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Representation tells us what possible space of f are we allowed to look at.&lt;br&gt;&lt;br&gt;So, ML algos are also about what representation you can use to get closer to the right solution&lt;br&gt;&lt;br&gt;&lt;br&gt;So you decide how to make the representation so that your ML algo can work with it." style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="70" width="220" height="250" as="geometry" />
+          <mxGeometry x="-600" y="250" width="220" height="250" as="geometry" />
         </mxCell>
         <mxCell id="5vYoBrWB2Ws82g73J6qU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5vYoBrWB2Ws82g73J6qU-9" target="5vYoBrWB2Ws82g73J6qU-11">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +38,7 @@
           <mxGeometry x="-170" y="-100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5vYoBrWB2Ws82g73J6qU-11" value="&lt;b&gt;Parametric&lt;/b&gt;&lt;br&gt;&lt;br&gt;Even before looking at the dataset you make assumptions and pre-determinations about the representation.&amp;nbsp;&lt;br&gt;&lt;br&gt;You can limit your representation to 2nd order polynomial.&lt;br&gt;&lt;br&gt;f(x) = ax^2 + bx + c&lt;br&gt;&lt;br&gt;So, you can represent them with only 3 parameters a, b and c. Hence, the name parametric.&lt;br&gt;&lt;br&gt;Neural Network is also parametric. The parameters are the weights of the network&lt;br&gt;&lt;br&gt;Graphical models - like Bayesian Networks&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="-580" width="240" height="400" as="geometry" />
+          <mxGeometry x="-280" y="-600" width="240" height="400" as="geometry" />
         </mxCell>
         <mxCell id="5vYoBrWB2Ws82g73J6qU-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5vYoBrWB2Ws82g73J6qU-13" target="5vYoBrWB2Ws82g73J6qU-20">
           <mxGeometry relative="1" as="geometry" />
@@ -43,7 +46,7 @@
         <mxCell id="5vYoBrWB2Ws82g73J6qU-13" value="Representation of the function is the dataset itself&lt;br&gt;&lt;br&gt;You do not have a set of special purpose parameters." style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="-160" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="5vYoBrWB2Ws82g73J6qU-15" value="Why have these two types?&lt;br&gt;&lt;br&gt;Advantage of parametric&lt;br&gt;&lt;br&gt;They are compact. You just need to store the parameters.&lt;br&gt;&lt;br&gt;In non-parametric, it is bigger as you need all the data points&lt;br&gt;&lt;br&gt;&lt;br&gt;Advantage of non-parametric&lt;br&gt;&lt;br&gt;You do not assume or pre-determine the representation. The representation is whatever comes with the dataset." style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-15" value="Why have these two types?&lt;br&gt;&lt;br&gt;Advantage of parametric&lt;br&gt;&lt;br&gt;They are compact. You just need to store the parameters.&lt;br&gt;&lt;br&gt;In non-parametric, it is bigger as you need all the data points&lt;br&gt;&lt;br&gt;&lt;br&gt;Advantage of non-parametric&lt;br&gt;&lt;br&gt;You do not assume or pre-determine the representation. The representation is whatever comes with the dataset.&lt;br&gt;Hence, it is more adaptive to the data." style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="-280" width="300" height="300" as="geometry" />
         </mxCell>
         <mxCell id="5vYoBrWB2Ws82g73J6qU-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5vYoBrWB2Ws82g73J6qU-13" target="5vYoBrWB2Ws82g73J6qU-15">
@@ -53,7 +56,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5vYoBrWB2Ws82g73J6qU-20" value="&lt;b&gt;Non-Parametric&lt;br&gt;&lt;/b&gt;&lt;br&gt;I make no assumptions and pre-determinations about the representation." style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-610" width="230" height="335" as="geometry" />
+          <mxGeometry x="440" y="-600" width="270" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5vYoBrWB2Ws82g73J6qU-22" target="5vYoBrWB2Ws82g73J6qU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-22" value="The representation is a combination of multiple functions." style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5vYoBrWB2Ws82g73J6qU-24" value="&lt;b&gt;Ensemble Representation&lt;/b&gt;&lt;br&gt;&lt;br&gt;It is a combination of this set of 5 functions. So that would be an ensemble of size 5.&lt;br&gt;&lt;br&gt;It is learning a bunch of solutions and combining them into a final answer.&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="-370" width="310" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
